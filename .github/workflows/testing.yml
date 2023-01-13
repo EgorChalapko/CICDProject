@@ -30,7 +30,7 @@ jobs:
       run: |
         python test-dummy.py
     - name: Deploy
-      uses: EgorChalapko/CICDProject@0
+      uses: EgorChalapko/CICDProject@v3
       with: 
         GITHUB_TOKEN: ${{ secrets.GHACSESS }}
         BRANCH: gh-pages
