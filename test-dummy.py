@@ -1,0 +1,1 @@
+print("My name is Yoshikage Kira. I'm 33 years old. My house is in the northeast section of Morioh.")
