@@ -29,3 +29,10 @@ jobs:
     - name: Test
       run: |
         python test-dummy.py
+    - name: Deploy
+      uses: EgorChalapko/github-pages-deploy-action@3.7.1
+      with: 
+        GITHUB_TOKEN: ${{ secrets.GHACSESS }}
+        BRANCH: gh-pages
+        FOLDER: public
+        CLEAN: true        
