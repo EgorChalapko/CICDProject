@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="iris-ml-app",
-    version="0.0.1",
+    version="0.0.2",
     description="An app about color of flowers",
     packages=find_packages(),
     classifiers=[
